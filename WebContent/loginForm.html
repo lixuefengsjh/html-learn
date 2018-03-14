@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登陆系统</title>
+<style type="text/css">
+body{font-family: Georgia, serif;
+font-size:25px;
+	background-color:red;
+}
+#main{
+border:1px solid yellow;
+height:400px;
+width:300px;
+ position: relative;
+left:40%;
+top:100px;
+text-align:center
+}
+h3{
+text-align:center
+}
+p{text-align:center}
+
+button{margin:0 auto
+}
+#img1{margin:0 auto}
+input{border-radius:25px;}
+</style>
+</head>
+<body>
+<div id="main">
+
+<h3>OneManage管理系统</h3>
+<p>后台登陆中心</p>
+
+<img alt="管理员头像" src="img/admin.png"  id="img1">
+
+<form action="" id="form1" >
+	<label>用户名:</label><input type="text"/><br/>
+	<label>密&nbsp;&nbsp;&nbsp;码:</label><input type="password"/><br/>
+	<label>验证码:</label><input type="text"/><br/>
+	<button >提交</button>
+</form>
+
+</div>
+<script type="text/javascript">
+    var btn=document.getElementsByTagName('button')[0];
+    btn.onclick=function(){
+    	var form1=document.getElementById('form1');
+    	var elements=form1.elements;
+    	for(var i=0;i<elements.length;i++){
+    		if(elements[i].type==input){
+    			
+    		}
+    	}
+		
+    };
+</script>
+</body>
+</html>

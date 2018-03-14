@@ -1,0 +1,5 @@
+HTML:超文本标记语言，不是一种编程语言，是一种标记语言
+页面最基本的元素：<h1>~<h6>     <p>  <a>  <img>
+双标签和但标签的写法<hr/>
+对于字体的样式设置：font-family,font-size,color,text-align
+单纯对文本的处理<blockquote> <q>
